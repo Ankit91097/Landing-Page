@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+#page1 {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./img.jpeg);
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+#page1 > h1 {
+  position: absolute;
+  text-transform: uppercase;
+  font-family: gilroy;
+  font-size: 9vh;
+  font-weight: 500;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#nav-bar {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 4vw;
+}
+
+#nav-bar h1 {
+  font-style: italic;
+  font-weight: 500;
+}
+
+#page2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+  width: 100%;
+  gap: 3vw;
+}
+
+#page2 h1 {
+  margin-top: 6vw;
+  font-weight: 400;
+  font-size: 3vw;
+}
+#page2 p {
+  width: 50%;
+  font-size: 1.3vw;
+  font-style: italic;
+  font-weight: 500;
+}
+#icon {
+  display: flex;
+  gap: 10px;
+  margin-top: 3vw;
+}
+#icon h3 {
+  font-family: gilroy;
+  font-weight: 500;
+}
+#border {
+  height: 3px;
+  width: 80%;
+  background-color: #323232;
+  margin-top: 5vw;
+}
+#page3 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+#page3 h1 {
+  font-size: 2.7vw;
+  font-weight: 500;
+}
+
+#hero {
+  display: flex;
+  gap: 3vw;
+  margin-top: 6vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card {
+  height: 42vh;
+  width: 20vw;
+  text-align: center;
+}
+
+.Card img {
+  height: 320px;
+  width: 320px;
+}
+
+.Card h4 {
+  font-family: gilroy;
+  font-weight: 100;
+  margin-top: 0.8vw;
+}
+.Card h5 {
+  font-family: gilroy;
+  font-weight: 100;
+}
+
+#page3 button {
+  padding: 0.8vw 3vw;
+  border: 1px solid black;
+  margin-top: 3vw;
+  font-size: large;
+  background-color: white;
+}
+
+#page4{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+}
+
+#page4 h3{
+    font-family: gilroy;
+    font-weight: 100;
+    margin-top: 5vw;
+}
+
+#input{
+    margin-top: 1.7vw;
+}
+#input input{
+    padding: 0.8vw 7vw;
+}
+#input button{
+    padding: 0.8vw 3vw;
+    margin-left: 10px;
+    background-color: #fff;
+    border:2px solid #323232;
+}
+#details{
+    height: 50%;
+    width: 100%;
+    background-color:rgb(190, 185, 185);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+
+#box1{
+    height: 100%;
+    width: 60%;
+    padding: 5vw;
+    color: white;
+}
+#box1 h4{
+    margin-bottom: 20px;
+}
+
+#box1 h5{
+    margin-bottom: 10px;
+    font-weight: 100;
+    font-family: gilroy;
+}
+#box1 h1{
+    margin-top: 10vw;
+}
+#box2{
+    height: 100%;
+    width: 40%;
+    display: flex;
+}
+#nothing{
+    height: 100%;
+    width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   flex-direction: column;
+   gap: 10px;
+   color: white;
+}
+
+#nothing h4{
+    margin-top: 5vw;
+}
